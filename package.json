@@ -5,14 +5,11 @@
         "montage": "~0.13.2",
         "digit": "0.3.2"
     },
-    "devDependencies": {
-        "montage-testing": "0.2.0"
-    },
     "exclude": [
         "run-tests.html",
         "test"
     ],
     "optionalDependencies": {
-        "matte": ""
+        "matte": "0.1.4"
     }
 }
