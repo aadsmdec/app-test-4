@@ -13,10 +13,16 @@
                 "element": {"#": "main"}
             }
         },
+        "scene": {
+            "prototype": "mjs-volume/runtime/scene"
+        },
         "sceneView2": {
             "prototype": "mjs-volume/ui/scene-view.reel",
             "properties": {
-                "element": {"#": "sceneView2"}
+                "element": {"#": "sceneView2"},
+                "height": "500",
+                "scene": {"@": "scene"},
+                "width": "500"
             }
         }
     }
