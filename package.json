@@ -2,13 +2,15 @@
     "name": "app-test-4",
     "version": "0.1.0",
     "dependencies": {
-        "digit": "0.3.2",
-        "matte": "0.1.4",
         "mjs-volume": "git+https://github.com/thibaultzanini/mjs-volume.git",
-        "montage": "~0.14.0"
+        "montage": "~0.14.0",
+        "digit": "0.3.2"
     },
     "exclude": [
         "run-tests.html",
         "test"
-    ]
+    ],
+    "devDependencies": {
+        "matte": "0.1.4"
+    }
 }
