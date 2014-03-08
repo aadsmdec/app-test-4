@@ -11,8 +11,5 @@
     ],
     "devDependencies": {
         "matte": "0.1.4"
-    },
-    "optionalDependencies": {
-        "mjs-volume": "git+https://github.com/thibaultzanini/mjs-volume.git"
     }
 }
