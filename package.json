@@ -3,8 +3,7 @@
     "version": "0.1.0",
     "dependencies": {
         "montage": "~0.14.0",
-        "digit": "0.3.2",
-        "mjs-volume": "git+https://github.com/fabrobinet/mjs-volume.git"
+        "digit": "0.3.2"
     },
     "exclude": [
         "run-tests.html",
