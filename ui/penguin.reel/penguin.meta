@@ -14,6 +14,9 @@
     "prototype": "montage/core/meta/module-blueprint",
     "properties": {
       "name": null,
+      "blueprintModule": {
+        "%": "ui/penguin.reel/penguin.meta"
+      },
       "parent": {"@": "blueprint_component_reference"},
       "propertyBlueprintGroups": {
         "Penguin": []

@@ -10,6 +10,20 @@
                 "element": {"#": "owner"}
             }
         },
+        "hat": {
+            "prototype": "mjs-volume/runtime/node",
+            "properties": {
+                "id": "TopHat",
+                "scene": {"@": "scene"}
+            },
+            "listeners": [
+                {
+                    "type": "action",
+                    "useCapture": false,
+                    "listener": {"@": "owner"}
+                }
+            ]
+        },
         "scene": {
             "prototype": "mjs-volume/runtime/scene",
             "properties": {
