@@ -9,12 +9,30 @@
             "properties": {
                 "element": {"#": "owner"}
             }
+        },
+        "scene": {
+            "prototype": "mjs-volume/runtime/scene",
+            "properties": {
+                "path": "../../assets/penguin.json"
+            }
+        },
+        "sceneView": {
+            "prototype": "mjs-volume/ui/scene-view.reel",
+            "properties": {
+                "element": {"#": "sceneView"},
+                "height": "350",
+                "scene": {"@": "scene"},
+                "width": "350"
+            }
         }
     }
     </script>
 </head>
 <body>
     <div data-montage-id="owner" class="Penguin">
+        <div data-montage-id="sceneView">
+            <canvas data-montage-id="canvas"></canvas>
+        </div>
     </div>
 </body>
 </html>
