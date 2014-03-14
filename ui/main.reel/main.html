@@ -33,16 +33,18 @@
         "scene": {
             "prototype": "mjs-volume/runtime/scene",
             "properties": {
-                "path": "assets/penguin.json"
+                "path": "model/penguin/penguin.json"
             }
         },
-        "sceneView": {
+        "viewer": {
             "prototype": "mjs-volume/ui/scene-view.reel",
             "properties": {
-                "element": {"#": "sceneView"},
-                "height": "500",
-                "scene": {"@": "scene"},
-                "width": "500"
+                "element": {
+                    "#": "viewer"
+                },
+                "scene": {
+                    "@": "scene"
+                }
             }
         }
     }
@@ -50,7 +52,7 @@
 </head>
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
-        <div data-montage-id="sceneView"></div>
+        <div data-montage-id="viewer" class="stage"></div>
     </div>
 </body>
 </html>
