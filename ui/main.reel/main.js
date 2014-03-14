@@ -15,21 +15,9 @@ exports.Main = Component.specialize(/** @lends Main# */ {
         }
     },
     
-    handleAction: {
-        value: function (event) {
-            console.log(event)
-        }
-    },
-    
-    captureAction: {
-        value: function (event) {
-            console.log(event)
-        }
-    },
-    
-    handleNodeAction: {
-        value: function (event) {
-            console.log(event)
+    handleHatAction: {
+        value: function(event) {
+            return this.templateObjects.text.value = "Do you like my fancy hat?";
         }
     }
     
