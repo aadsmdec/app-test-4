@@ -21,6 +21,12 @@ exports.Main = Component.specialize(/** @lends Main# */ {
         }
     },
     
+    captureAction: {
+        value: function (event) {
+            console.log(event)
+        }
+    },
+    
     handleNodeAction: {
         value: function (event) {
             console.log(event)
