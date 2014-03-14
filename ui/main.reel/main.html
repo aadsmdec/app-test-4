@@ -13,36 +13,10 @@
                 "element": {"#": "main"}
             }
         },
-        "hat": {
-            "prototype": "mjs-volume/runtime/node",
+        "penguin": {
+            "prototype": "ui/penguin.reel",
             "properties": {
-                "id": "TopHat",
-                "scene": {
-                    "@": "scene"
-                }
-            },
-            "listeners": [{
-                "type": "action",
-                "listener": {
-                    "@": "owner"
-                }
-            }]
-        },
-        "scene": {
-            "prototype": "mjs-volume/runtime/scene",
-            "properties": {
-                "path": "assets/penguin.json"
-            }
-        },
-        "viewer": {
-            "prototype": "mjs-volume/ui/scene-view.reel",
-            "properties": {
-                "element": {
-                    "#": "viewer"
-                },
-                "scene": {
-                    "@": "scene"
-                }
+                "element": {"#": "penguin"}
             }
         }
     }
@@ -50,7 +24,7 @@
 </head>
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
-        <div data-montage-id="viewer" class="stage"></div>
+        <div data-montage-id="penguin"></div>
     </div>
 </body>
 </html>
