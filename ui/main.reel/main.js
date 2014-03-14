@@ -17,7 +17,7 @@ exports.Main = Component.specialize(/** @lends Main# */ {
     
     handleHatAction: {
         value: function(event) {
-            return this.templateObjects.text.value = "Do you like my fancy hat?";
+            console.log("hey");
         }
     }
     
