@@ -17,13 +17,16 @@
             "prototype": "mjs-volume/runtime/node",
             "properties": {
                 "id": "TopHat",
-                "scene": {"@": "scene"}
+                "scene": {
+                    "@": "scene"
+                }
             },
             "listeners": [
                 {
                     "type": "action",
-                    "useCapture": false,
-                    "listener": {"@": "owner"}
+                    "listener": {
+                        "@": "owner"
+                    }
                 }
             ]
         },
