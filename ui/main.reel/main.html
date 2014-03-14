@@ -18,21 +18,14 @@
             "properties": {
                 "id": "TopHat",
                 "scene": {"@": "scene"}
-            }
-        },
-        "node2": {
-            "prototype": "mjs-volume/runtime/node",
-            "properties": {
-                "id": "Monocle",
-                "scene": {"@": "scene"}
-            }
-        },
-        "node3": {
-            "prototype": "mjs-volume/runtime/node",
-            "properties": {
-                "id": "node_0",
-                "scene": {"@": "scene"}
-            }
+            },
+            "listeners": [
+                {
+                    "type": "action",
+                    "useCapture": false,
+                    "listener": {"@": "owner"}
+                }
+            ]
         },
         "scene": {
             "prototype": "mjs-volume/runtime/scene",
