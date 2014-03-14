@@ -13,5 +13,11 @@ exports.Penguin = Component.specialize(/** @lends Penguin# */ {
         value: function Penguin() {
             this.super();
         }
+    },
+    
+    handleHatAction: {
+        value: function (event) {
+            console.log(event);
+        }
     }
 });
