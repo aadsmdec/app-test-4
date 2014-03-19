@@ -4,8 +4,7 @@
     "dependencies": {
         "montage": "~0.14.0",
         "digit": "0.3.2",
-        "mjs-volume": "git+https://github.com/fabrobinet/mjs-volume.git",
-        "radioio": "git+https://github.com/declarativ/radioio.git"
+        "mjs-volume": "git+https://github.com/fabrobinet/mjs-volume.git"
     },
     "exclude": [
         "run-tests.html",
