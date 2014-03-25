@@ -4,7 +4,8 @@
     "dependencies": {
         "digit": "0.3.2",
         "matte": "0.1.4",
-        "montage": "~0.14.0"
+        "montage": "~0.14.0",
+        "mjs-volume": "git+https://github.com/fabrobinet/mjs-volume.git"
     },
     "exclude": [
         "run-tests.html",
