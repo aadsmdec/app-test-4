@@ -20,6 +20,14 @@
                 "scene": {"@": "scene"}
             }
         },
+        "node2": {
+            "prototype": "mjs-volume/runtime/node",
+            "properties": {
+                "hidden": true,
+                "id": "TopHat",
+                "scene": {"@": "scene"}
+            }
+        },
         "scene": {
             "prototype": "mjs-volume/runtime/scene",
             "properties": {
@@ -42,6 +50,7 @@
     <div data-montage-id="main" data-montage-skin="light" class="Main">
         <div data-montage-id="sceneView">
             <canvas data-montage-id="canvas"></canvas>
+            <div></div>
         </div>
     </div>
 </body>
